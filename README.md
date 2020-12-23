@@ -2,10 +2,10 @@
 
 **Create a simple spring boot application with one or two rest end points.**
 - To simplify the jar name, this tag in pom.xml file
-```<finalName>spring-boot-aws</finalName>```
+- ```<finalName>spring-boot-aws</finalName>```
 
 **By executing following command build the JAR file.**
-```mvn clean install```
+- ```mvn clean install```
 - In the target folder you can see the generated jar file
 
 **Login into ec2 instance**
@@ -28,5 +28,5 @@ alternatives --config java
 - It will start the spring boot application.
 
 ## Now you can access the rest end points by using the public DNS.
-```http://ec2-13-212-78-206.ap-southeast-1.compute.amazonaws.com:8080/```
-```http://ec2-13-212-78-206.ap-southeast-1.compute.amazonaws.com:8080/orders```
+- ```http://ec2-13-212-78-206.ap-southeast-1.compute.amazonaws.com:8080/```
+- ```http://ec2-13-212-78-206.ap-southeast-1.compute.amazonaws.com:8080/orders```
